@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    New Tab
+  </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="images/x-icon" href="/assets/images/newtab.png" id="favicon">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="#home" onclick="window.open('/94199925-7986-498e-ab8e-8809b8b6133e.html', '_self')">Home</a>
+    <a href="#games" onclick="window.open('44617-20ea6d9-2236-56982cd.html', '_self');">Games</a>
+    <a href="#contact" onclick="window.open('38a709-73e3dc25-2e72w71-173d04.html', '_self')">Contact</a>
+  </div> <!-- Navigation bar -->
+  <h1> <br />
+    MADE BY UNBLOCKEDGAMESHTPS
+  </h1> <!-- Watermark -->
+  <fieldset>
+    <legend>
+      <b>
+        Check if the Securly extenstion is installed.
+      </b>
+    </legend>
+    <p>
+      Requirement: Chrome Version 121.0.0.0 or higher.
+      Securly Verion 2.5.0.0 or higher.
+    </p>
+    <button onclick="checkSecurly()" class="secondary" id="securlychecker">
+      Check
+    </button>
+  </fieldset> <!-- Check if securly is installed and detected -->
+  <fieldset>
+    <legend>
+      <b>
+        Turn off Securly & GoGuardian.
+      </b>
+    </legend>
+    <div class="method" id="method">
+      <button url="https://2ledev.github.io/cauDNS" class="secondary" id="first" onclick="m1()">
+        Click first and read directions
+      </button> <br /> <br />
+      <button class="secondary" id="second" onclick="m2()" url="about://network">
+        Click second after reading directions
+      </button> <br />
+      <div id="noworking1">
+        <p>
+          If the button doesn't work, click the link below.
+        </p>
+      <a href="chrome://network">
+        chrome://network
+      </a>
+      <div id="noworking2">
+        <p>
+          If the link doesn't work then press 
+          <b>
+            Ctrl + T
+          </b>
+          and type in
+          <b>
+            "chrome://network"
+          </b>
+          or to make it quicker just do
+          <b>
+            "chrome://network#state"
+          </b>
+        </p>
+      </div>
+    </div>
+  </fieldset> <!-- Turn off securly & GoGuardian -->
+  <fieldset>
+    <legend>
+      <b>
+        Change the tab name.
+      </b>
+    </legend>
+    <input type="text" id="#tabname" placeholder="Tab name" />
+    <button onclick="tabName()" class="secondary">
+      Set tab name
+    </button> <br />
+    <p>
+      If that doesn't work
+    <button onclick="tabName2()" class="secondary">
+      Click Here
+    </button>
+    </p>
+  </fieldset> <!-- Tab name changer -->
+  <fieldset>
+    <legend>
+      <b>
+        Change the favicon.
+      </b>
+    </legend>
+    <input type="text" id="tabicon" placeholder="Tab icon" />
+    <button onclick="tabIcon()" class="secondary">
+      Set tab favicon
+    </button> <br />
+    <br />
+    <p>
+      <b>
+        HOW TO DO IT:
+      </b> <br />
+      <br />
+      Step 1: Go to the image you want to use. Example: <img src="/assets/images/google.ico" />
+      <br />
+      Step 2: Right click on the image and click "Copy Image Address".
+      <br />
+      Step 3: Paste the image address into the box.
+    </p>
+  </fieldset> <!-- Tab favicon changer -->
+  <fieldset>
+    <legend>
+      <b>
+        Tab Cloaker Presets
+      </b>
+    </legend>
+      <button class="secondary" onclick="tabPreset('google')">
+        <img src="/assets/images/google.ico" />
+        <p>
+          Google
+        </p>
+      </button>
+      <button class="secondary" onclick="tabPreset('drive')">
+        <img src="/assets/images/drive.png" />
+        <p>
+          Google Drive
+        </p>
+      </button>
+      <button class="secondary" onclick="tabPreset('docs')">
+        <img src="/assets/images/docs.ico" />
+        <p>
+          Google Docs
+        </p>
+      </button>
+      <button class="secondary" onclick="tabPreset('classroom')">
+        <img src="/assets/images/classroom.png" />
+        <p>
+          Google Classroom
+        </p>
+      </button>
+    <button class="secondary" onclick="tabPreset('artclass')">
+      <img src="/assets/images/artclass.png" />
+      <p>
+        Artclass.site
+      </p>
+    </button>
+    <button class="secondary" onclick="tabPreset('ubhtps')">
+      <img src="/assets/images/favicon.png" />
+      <p>
+        UnblockedGamesHTPS
+      </p>
+    </button>
+    <hr />
+    <button class="secondary" onclick="tabPreset('original')">
+      <p>
+        Refresh Favicon & Name
+      </p>
+    </button>
+    <hr /> 
+    <br />
+      <b>
+        MORE COMING SOON
+      </b>
+  </fieldset> <!-- Tab favicon presets -->
+  <fieldset>
+    <legend>
+      <b>
+        Test your internet speed.
+      </b>
+    </legend> <br />
+    <embed src="https://speedtest.xfinity.com/" width="100%" height="200" />
+  </fieldset> <!-- Internet speed test -->
+</body>
+
+</html>

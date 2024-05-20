@@ -1,0 +1,90 @@
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.signup {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=user] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #2b2b2b;
+  color: #fff;
+}
+
+input[type=text]:focus, input[type=user]:focus {
+  background-color: #3b3b3b;
+  outline: none;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #2b2b2b;
+  color:#fff;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #3b3b3b;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.login {
+  background-color: #3b3b3b; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  size: 10px;
+}
+
+.login:hover {
+  background-color: #2b2b2b;
+  cursor: pointer;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.protected {
+  background-color: #3b3b3b;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  size: 10px;
+}
+
+.protected:hover {
+  opacity:1;
+  cursor: pointer;
+}

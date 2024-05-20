@@ -1,0 +1,49 @@
+<html style="background-color: #f1f1f1;">
+  <head>
+    <title>
+      Login
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+      <div class="signin">
+        
+        <h1>
+          To continue, please enter your username &	password.
+        </h1>
+
+        <label>
+          <b>
+            Username
+          </b>
+        </label>
+        <div class="password">
+          <input type="text" class="password" placeholder="Enter Username (Example: username123)" id="lgin">
+        </div>
+        <label>
+          <b>
+            Password
+          </b>
+        </label>
+        <div class="password">
+          <input type="password" placeholder="Enter Password (Example: password123$)" id="psw">
+          <input type="checkbox" onclick="showPassword()">
+            Show Password
+          </input>
+        </div> <br /> <br />
+
+        <button class="login" id="login" type="submit" onclick="checkDatabase()">
+          Login
+        </button>
+         
+        </fieldset>
+        
+        <br /> <br /> <br /> <br /> <br /> <br /> 
+        <p>
+          If you hack the system I will find you and fart on you.
+        </p>
+      </div>
+  </body>
+</html>
