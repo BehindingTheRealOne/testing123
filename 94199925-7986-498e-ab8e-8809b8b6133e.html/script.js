@@ -26,31 +26,31 @@ function tabIcon() {
 var tabpresets = {
     google: {
         name: "Google",
-        icon: "/assets/images/google.ico"
+        icon: "/testing123/assets/images/google.ico"
     },
     docs: {
         name: "Google Docs",
-        icon: "/assets/images/docs.ico"
+        icon: "/testing123/assets/images/docs.ico"
     },
     drive: {
         name: "Home - Google Drive",
-        icon: "/assets/images/drive.png" 
+        icon: "/testing123/assets/images/drive.png" 
     },
     classroom: {
         name: "Home",
-        icon: "/assets/images/classroom.png"
+        icon: "/testing123/assets/images/classroom.png"
     },
     artclass: {
         name: "Art Class",
-        icon: "/assets/images/artclass.png"
+        icon: "/testing123/assets/images/artclass.png"
     },
     ubhtps: {
         name: "UnblockedGamesHTPS",
-        icon: "/assets/images/favicon.png"
+        icon: "/testing123/assets/images/favicon.png"
     },
     original: {
         name: "New Tab",
-        icon: "/assets/images/newtab.png"
+        icon: "/testing123/assets/images/newtab.png"
     },
 }
 
