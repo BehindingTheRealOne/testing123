@@ -10,8 +10,8 @@ if (passw.type === "password") {
 
 // Database of usernames and passwords
 const database = {
-    usernames: ["admin", "username123", "skibidi"],
-    passwords: ["admin", "password", "toilet"],
+    usernames: ["admin", "username123", "skibidi", "yamal"],
+    passwords: ["admin", "password", "toilet", "155555"],
 }
 
 // Checking the database for the username and password and seeing if they're correct to show the secret button
