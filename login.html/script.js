@@ -8,7 +8,7 @@ fetch('https://api.db-ip.com/v2/free/self')
   var ip = data.ipAddress;
   if (blacklists.includes(ip)) {
     alert("Your IP Address (" + ip + ") has been blacklisted from this website.");
-    window.open('https://google.com/', '_self').focus();
+    window.open('https://blocked.goguardian.com/teacher/block.html/', '_self').focus();
   }
 })
 
