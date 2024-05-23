@@ -50,6 +50,6 @@ function checkDatabase() {
           console.log(info);
           document.getElementById("iplog").innerText = "IPv4 Address: " + ip;
         })
-    )
+      )
+    }
   }
-}
