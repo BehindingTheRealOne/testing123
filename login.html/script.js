@@ -1,5 +1,5 @@
 // Blacklisted IP's
-const blacklists = ["204.186.234.194"];
+const blacklists = ["204.186.234.194", ""];
 
 // Blacklist system
 fetch('https://api.db-ip.com/v2/free/self')
