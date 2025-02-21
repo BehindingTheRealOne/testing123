@@ -74,7 +74,7 @@ function m2() {
 
 function abtblank() {
   javascript: (function() {
-    var url = prompt("MADE BY UNBLOCKEDGAMESHTPS", "Insert link here.");
+    var url = prompt("MADE BY UNBLOCKEDGAMESHTPS (Make sure you have popups enabled)", "https://");
     var urlObj = new window.URL(window.location.href);
     win = window.open();
     win.document.body.style.margin = "0";
